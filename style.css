@@ -6,10 +6,9 @@ body {
   height: 10000px;
 }
 
-  canvas {
+  img {
     width: 100%;
     height: 100%;
-    repeat: no-repeat;
 }
 
 .mexico {}
