@@ -11,12 +11,11 @@ img {
   height: 100%;
 }
 
-.cls-1, .cls-4, {
-  outline-width: 1px;
-  outline-style: dashed;
-  outline-color: red;
+#Borders {
+  color:
 }
-/* .cls-1, .cls-10, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8 {
+
+.cls-1, .cls-10, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8 {
   fill: none;
   stroke-miterlimit: 10;
 }
@@ -68,6 +67,6 @@ img {
 
 .cls-11 {
   fill: #70818b;
-} */
+}
 
 </style>
