@@ -1,11 +1,104 @@
 
-#countries {
+.countries {
   fill: white;
   outline: 2pt;
   outline-color: #70818b;
 }
 
-#Background {
-x: 0px;
-y:0px;
+.st0 {
+  fill: #0C1824;
+}
+
+.st1 {
+  fill: #70818B;
+}
+
+.st2 {
+  fill: #BDAE99;
+}
+
+.st3 {
+  fill: none;
+  stroke: #70818B;
+  stroke-miterlimit: 10;
+}
+
+.st4 {
+  fill: none;
+  stroke: #D9CEC6;
+  stroke-miterlimit: 10;
+}
+
+.st5 {
+  fill: #D9CEC6;
+}
+
+.st6 {
+  fill: none;
+  stroke: #334A5A;
+  stroke-miterlimit: 10;
+}
+
+.st7 {
+  fill: none;
+  stroke: #C1272D;
+  stroke-width: 2;
+  stroke-miterlimit: 10;
+}
+
+.st8 {
+  fill: none;
+  stroke: #C1272D;
+  stroke-width: 2;
+  stroke-miterlimit: 10;
+  stroke-dasharray: 13.4678, 13.4678;
+}
+
+.st9 {
+  fill: none;
+  stroke: #334A5A;
+  stroke-width: 3;
+  stroke-miterlimit: 10;
+}
+
+.st10 {
+  fill: none;
+  stroke: #C1272D;
+  stroke-width: 2;
+  stroke-miterlimit: 10;
+  stroke-dasharray: 11.9473, 11.9473;
+}
+
+.st11 {
+  fill: none;
+  stroke: #C1272D;
+  stroke-width: 2;
+  stroke-miterlimit: 10;
+  stroke-dasharray: 11.2388, 11.2388;
+}
+
+.st12 {
+  fill: none;
+  stroke: #70818B;
+  stroke-width: 2;
+  stroke-miterlimit: 10;
+}
+
+.st13 {
+  fill: none;
+  stroke: #D9CEC6;
+  stroke-width: 0.5;
+  stroke-miterlimit: 10;
+}
+
+.st14 {
+  fill: #334A5A;
+}
+
+.st15 {
+  fill: #688B74;
+}
+
+.st16 {
+  display: none;
 }
