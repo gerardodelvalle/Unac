@@ -3,26 +3,38 @@ body {
 }
 
 #videos {
-  position: absolute;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-  width: 100%;
-  height: 100%;
-  display: table;
-}
-
-img{
+  position: relative;
   width: 100%;
   height: auto;
-  display: table;
+  display: block;
+  margin: 5 auto;
+}
+
+#portraits{
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 5 auto;
+  position: inherit;
+  z-index: 0;
+  top: auto;
+
 
 }
+
 svg {
-  /* position: relative; */
-  /* top: auto; */
-  /* width: 100%; */
+  position: inherit;
+  top: auto;
+  width: 100%;
+  z-index: 0;
   object-fit: cover;
-  display: table;
+}
+
+#opening{
+  position: inherit;
+  z-index: 0;
+  width: 100%;
+  height: auto;
 }
 
 #header {
@@ -31,25 +43,60 @@ svg {
   font-style: normal;
   color: #d9cec6;
   text-align: center;
-  font-size: 90px;
+  font-size: 200px;
   font-weight: bold;
   width: 100%;
-  display: table;
-  padding: 2px;
+  height: auto;
+  padding: 1px;
+  display: block;
+  margin: 0 auto;
+  top: 17.5%;
+  position: absolute;
+  z-index: 1;
 }
 
 #subtitle {
   font-family: league-gothic, sans-serif;
-  font-weight: 400;
+  /* font-weight: 400; */
   font-style: normal;
   color: #d9cec6;
   text-align: center;
   font-size: 50px;
   font-weight: bold;
   width: 100%;
-  display: table;
-  padding: 2px;
+  height: auto;
+  padding: .5px;
+  display: block;
+  position: absolute;
+  z-index: 1;
+  margin: 0 auto;
+  top: 1.5%;
 }
+p{
+  font: georgia;
+  color: #334a5a;
+  width: 100%;
+  /* font-style: italic; */
+  font-size: 30px;
+  text-align: center;
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+  z-index: 1;
+  position: inherit;
+}
+.pg-button{
+  webkit-appearance: button;
+  overflow: visible;
+  font: georgia;
+  /* font-weight: bold; */
+  position: absolute;
+  cursor: pointer;
+  background-color: #bdae99;
+  /* margin: auto; */
+  position: center;
+}
+
 
 .st0 {
   fill: #0C1824;
@@ -134,7 +181,7 @@ svg {
 .st13 {
   fill: none;
   stroke: #D9CEC6;
-  stroke-width: 0.5;
+  stroke-width: 1.5;
   stroke-miterlimit: 10;
 }
 
