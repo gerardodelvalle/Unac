@@ -16,61 +16,66 @@ body {
   display: block;
   margin: 5 auto;
   position: inherit;
-  z-index: 0;
+  /* z-index: 0; */
   top: auto;
-
-
 }
 
 svg {
   position: inherit;
   top: auto;
   width: 100%;
-  z-index: 0;
+  /* z-index: 0; */
   object-fit: cover;
 }
 
 #opening{
-  position: inherit;
-  z-index: 0;
+  position: absolute;
+  /* z-index: 0; */
   width: 100%;
   height: auto;
 }
 
-#header {
+h1{
+  align-content: center;
+  display: table;
+  margin: 0px;
+  border: 1px solid black;
+}
+
+.header {
   font-family: league-gothic, sans-serif;
   font-weight: 400;
   font-style: normal;
   color: #d9cec6;
   text-align: center;
-  font-size: 200px;
+  /* font-size: 200px; */
   font-weight: bold;
   width: 100%;
   height: auto;
   padding: 1px;
-  display: block;
-  margin: 0 auto;
-  top: 17.5%;
+  display: inline;
+  /* margin-bottom: 6px; */
+  /* top: 17.5%; */
   position: absolute;
-  z-index: 1;
+  /* z-index: 1; */
 }
 
-#subtitle {
+.subtitle {
   font-family: league-gothic, sans-serif;
-  /* font-weight: 400; */
+  font-weight: 400;
   font-style: normal;
   color: #d9cec6;
   text-align: center;
-  font-size: 50px;
+  font-size: 20px;
   font-weight: bold;
   width: 100%;
   height: auto;
-  padding: .5px;
-  display: block;
+  padding: 1px;
+  display: inline;
+  /* margin-bottom: 6px; */
+  top: 33.4%;
   position: absolute;
-  z-index: 1;
-  margin: 0 auto;
-  top: 1.5%;
+  /* z-index: 1; */
 }
 p{
   font: georgia;
@@ -81,9 +86,9 @@ p{
   text-align: center;
   margin: auto;
   width: 60%;
-  padding: 10px;
-  z-index: 1;
-  position: inherit;
+  /* padding: 10px; */
+  /* z-index: 1; */
+  position: absolute;
 }
 .pg-button{
   webkit-appearance: button;
