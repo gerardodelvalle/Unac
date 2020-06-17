@@ -2,106 +2,95 @@ body {
   background-color: #0C1824;
 }
 
-#videos {
-  position: relative;
-  width: 100%;
-  height: auto;
-  display: block;
-  margin: 5 auto;
-}
-
-#portraits{
-  width: 100%;
-  height: auto;
-  display: block;
-  margin: 5 auto;
-  position: inherit;
-  /* z-index: 0; */
-  top: auto;
-}
-
 svg {
   position: inherit;
   top: auto;
   width: 100%;
-  /* z-index: 0; */
   object-fit: cover;
 }
 
-#opening{
-  position: absolute;
-  /* z-index: 0; */
+#opening {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
   width: 100%;
   height: auto;
 }
 
-h1{
+h1 {
   align-content: center;
-  display: table;
+  display: inline;
   margin: 0px;
-  border: 1px solid black;
+  position: fixed;
+  top: 10px;
+  left: 0.5%;
+  color: #d9cec6;
+  text-shadow: 1px 1px 6px black;
+  font-family: league-gothic, sans-serif;
+  text-align: center;
+  z-index: 1;
+  width: 100%;
 }
 
 .header {
-  font-family: league-gothic, sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  color: #d9cec6;
-  text-align: center;
-  /* font-size: 200px; */
+  font-style: bold;
+  font-size: 50px;
   font-weight: bold;
-  width: 100%;
   height: auto;
   padding: 1px;
-  display: inline;
-  /* margin-bottom: 6px; */
-  /* top: 17.5%; */
-  position: absolute;
-  /* z-index: 1; */
 }
 
 .subtitle {
-  font-family: league-gothic, sans-serif;
-  font-weight: 400;
   font-style: normal;
-  color: #d9cec6;
-  text-align: center;
   font-size: 20px;
-  font-weight: bold;
-  width: 100%;
   height: auto;
-  padding: 1px;
-  display: inline;
-  /* margin-bottom: 6px; */
-  top: 33.4%;
-  position: absolute;
-  /* z-index: 1; */
+  padding-top: 53px;
 }
-p{
+
+p {
   font: georgia;
-  color: #334a5a;
-  width: 100%;
-  /* font-style: italic; */
-  font-size: 30px;
+  /* color: #334a5a; */
+  color: white;
+  /* width: 100%; */
+  font-style: italic;
+  font-size: 20px;
   text-align: center;
   margin: auto;
-  width: 60%;
+  padding-top: 80px;
+  width: 602px;
   /* padding: 10px; */
-  /* z-index: 1; */
-  position: absolute;
+  z-index: 1;
+  position: relative;
 }
-.pg-button{
+
+.pg-button {
   webkit-appearance: button;
   overflow: visible;
   font: georgia;
   /* font-weight: bold; */
-  position: absolute;
+  position: relative;
   cursor: pointer;
   background-color: #bdae99;
   /* margin: auto; */
   position: center;
 }
 
+#videos {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 5 auto;
+}
+
+#portraits {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 5 auto;
+  /* z-index: 0; */
+  top: auto;
+}
 
 .st0 {
   fill: #0C1824;
